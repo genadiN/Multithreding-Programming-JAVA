@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="W5-Problem1:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/W5_Problem1_jar2</output-path>
+    <root id="archive" name="W5-Problem1.jar">
+      <element id="module-output" name="W5-Problem1" />
+      <element id="library" level="application" name="javafx-jmods-17.0" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="W8">
+    <output-path>$PROJECT_DIR$/out/artifacts/W8</output-path>
+    <root id="root">
+      <element id="archive" name="W8.jar">
+        <element id="module-output" name="W8" />
+      </element>
+    </root>
+  </artifact>
+</component>

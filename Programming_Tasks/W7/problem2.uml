@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>problem2</OriginalElement>
+  <nodes>
+    <node x="192.875" y="375.0">problem2.Sequence</node>
+    <node x="-17.25" y="291.0">problem2.Sequence.SSelectorForward</node>
+    <node x="514.75" y="299.0">problem2.Sequence.SSelectorBackward</node>
+    <node x="231.74999999999997" y="-29.0">problem2.Selector</node>
+    <node x="435.25" y="69.0">problem2.SelectorBackward</node>
+    <node x="219.75" y="231.5">problem2.SelectorTwoWay</node>
+    <node x="6.75" y="78.0">problem2.SelectorForward</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="problem2.Sequence.SSelectorBackward" target="problem2.SelectorBackward" relationship="REALIZATION">
+      <point x="-42.75" y="-73.0" />
+      <point x="40.75" y="39.0" />
+    </edge>
+    <edge source="problem2.Sequence.SSelectorForward" target="problem2.Sequence" relationship="INNER_CLASS">
+      <point x="-40.75" y="-73.0" />
+      <point x="23.5" y="336.0" />
+      <point x="319.25" y="336.0" />
+      <point x="319.25" y="485.0" />
+      <point x="326.375" y="485.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="problem2.SelectorTwoWay" target="problem2.SelectorForward" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="298.25" y="247.0" />
+      <point x="128.5" y="247.0" />
+      <point x="128.5" y="156.0" />
+      <point x="-38.75" y="39.0" />
+    </edge>
+    <edge source="problem2.SelectorTwoWay" target="problem2.SelectorBackward" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="298.25" y="253.75" />
+      <point x="476.0" y="253.75" />
+      <point x="-40.75" y="39.0" />
+    </edge>
+    <edge source="problem2.SelectorBackward" target="problem2.Selector" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="516.75" y="81.0" />
+      <point x="298.25" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="problem2.Sequence.SSelectorBackward" target="problem2.Sequence" relationship="INNER_CLASS">
+      <point x="42.75" y="-73.0" />
+      <point x="643.0" y="336.0" />
+      <point x="319.25" y="336.0" />
+      <point x="319.25" y="403.75" />
+      <point x="326.375" y="403.75" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="problem2.SelectorForward" target="problem2.Selector" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="298.25" y="78.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="problem2.Sequence.SSelectorForward" target="problem2.SelectorForward" relationship="REALIZATION">
+      <point x="40.75" y="-73.0" />
+      <point x="137.5" y="291.0" />
+      <point x="137.5" y="326.0" />
+      <point x="18.0" y="326.0" />
+      <point x="18.0" y="156.0" />
+      <point x="38.75" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="340.5" y="251.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

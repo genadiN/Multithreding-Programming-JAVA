@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Week6_test">
+    <output-path>$PROJECT_DIR$/out/artifacts/Week6_test</output-path>
+    <root id="archive" name="Week6_test.jar" />
+  </artifact>
+</component>

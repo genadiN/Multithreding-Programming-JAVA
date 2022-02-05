@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/W14.iml" filepath="$PROJECT_DIR$/.idea/W14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerClientAppJFx/client.view/client.view.iml" filepath="$PROJECT_DIR$/ServerClientAppJFx/client.view/client.view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerClientAppJFx/server.view/server.view.iml" filepath="$PROJECT_DIR$/ServerClientAppJFx/server.view/server.view.iml" />
+    </modules>
+  </component>
+</project>
